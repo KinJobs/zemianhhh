@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>乔木头之家</title>
+  <style>
+  body{margin:0px;}
+  </style>
+ </head>
+ <body>
+  
+ <!--外部总表格--> 
+  <table border='0' cellspacing='0' cellpadding='0'  width='960' height='96' align='center'>
+  <tr>
+	<td><iframe src='top.html' name='top' scrolling='no' width='960' height='96' frameborder='0'></iframe></td>
+  </tr>
+  <tr>
+	<td>
+	<!--表单-->
+	  <form name='form1' method='post' action='reg.php' enctype='multipart/form-data'>
+	    <table border='0' cellspacing='0' cellpadding='15'  width='960' height='96' align='center'>
+	    <tr align='center' height='30'>
+			<td valign='top' colspan='2'><font size='4' color='#666666'><b>请给我留言</b></font></td>
+	    </tr>
+	    <tr>
+			<td align='right' width='46%'>您的名字：　　</td>
+			<td align='left'><input type='text' name='name' size='20' maxlength='10'></td>
+	    </tr>
+		<tr>
+			<td align='right' width='46%'>您的性别：　　</td>
+			<td align='left'>
+			  <input type='radio' name='sex' value='man' id='man' checked='checked'><lable for='man'>男生</lable>
+			  <input type='radio' name='sex' value='woman' id='woman'><lable for='woman'>女生</lable>
+			</td>
+	    </tr>
+		<tr>
+			<td align='right' width='46%'>您的爱好：　　</td>
+			<td align='left'>
+			  <input type='checkbox' name='hobby' value='sport' id='sport'><lable for='sport'>运动</lable>
+			  <input type='checkbox' name='hobby' value='music' id='music' checked='checked'><lable for='music'>音乐</lable>
+			  <input type='checkbox' name='hobby' value='trip' id='trip'><lable for='trip'>旅游</lable>
+			</td>
+	    </tr>
+		<tr>
+			<td align='right' width='46%'>您来自中国：　　</td>
+			<td align='left'>
+			  <select name='adress'>
+			    <optgroup label='北方'>
+					<option value='north'>　北方　</option>
+					<option value='south' selected='selected'>　南方　</option>
+					<option value='east'>　东方　</option>
+					<option value='west'>　西方　</option>				  
+				</optgroup>
+				<optgroup label='南方'>
+					<option value='north'>　北方　</option>
+					<option value='south' selected='selected'>　南方　</option>
+					<option value='east'>　东方　</option>
+					<option value='west'>　西方　</option>				  
+				</optgroup>
+				<optgroup label='东方'>
+					<option value='north'>　北方　</option>
+					<option value='south' selected='selected'>　南方　</option>
+					<option value='east'>　东方　</option>
+					<option value='west'>　西方　</option>				  
+				</optgroup>
+				<optgroup label='西方'>
+					<option value='north'>　北方　</option>
+					<option value='south' selected='selected'>　南方　</option>
+					<option value='east'>　东方　</option>
+					<option value='west'>　西方　</option>				  
+				</optgroup>
+			  </select>
+			</td>
+	    </tr>
+		<tr>
+			<td align='right' width='46%'>如果方便的话，请上传您的照片：　　</td>
+			<td align='left'>
+			  <input type='file' name='userphoto'>
+			</td>
+	    </tr>
+		<tr>
+			<td align='right' width='46%'>请简单介绍下自己：　　</td>
+			<td align='left'>
+			  <textarea name='introduction' cols='60' rows='5'></textarea>
+			</td>
+	    </tr>
+		<tr>
+			<td colspan='2' align='right'>
+			  <input type='submit' value='我要留言' name='submit'>
+			</td>
+		</tr>
+	    </table>
+	  </form>
+	</td>
+  </tr>
+  <tr>
+	<td><iframe src='bottom.html' name='bottom' scrolling='no' width='960' height='96' frameborder='0'></iframe></td>
+  </tr>
+  </table>
+ <!--外部总表格end--> 
+ </body>
+</html>
+
